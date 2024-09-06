@@ -1,19 +1,5 @@
 {
   "projects": {
     "default": "react-blog-oneju"
-  },
-  "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/dist/index.html"
-      }
-    ]
   }
 }
